@@ -291,45 +291,45 @@ describe Block do
   # = Array Subtraction =
   # =====================
 
-  # describe "array subtraction" do
+  describe "array subtraction" do
 
-  #   let(:a) { Block.new(100, 200) }
+    let(:a) { Block.new(100, 200) }
 
-  #   let(:b) { Block.new(90, 110) }
+    let(:b) { Block.new(90, 110) }
 
-  #   let(:c) { Block.new(130, 140) }
+    let(:c) { Block.new(130, 140) }
 
-  #   let(:d) { Block.new(180, 220) }
+    let(:d) { Block.new(180, 220) }
 
-  #   let(:others) { [b, c, d] }
+    let(:others) { [b, c, d] }
 
-  #   let(:result) { a - others }
+    let(:result) { a - others }
 
-  #   it "returns each of the remaining spaces" do
-  #     result.length.should eq(2)
-  #   end
+    # it "returns each of the remaining spaces" do
+    #   result.length.should eq(2)
+    # end
 
-  #   describe "first block" do
-  #     it "starts where b ended" do
-  #       result.first.start.should eq(b.end)
-  #     end
+    # describe "first block" do
+    #   it "starts where b ended" do
+    #     result.first.start.should eq(b.end)
+    #   end
 
-  #     it "ends where c starts" do
-  #       result.first.end.should eq(c.start)
-  #     end
-  #   end
+    #   it "ends where c starts" do
+    #     result.first.end.should eq(c.start)
+    #   end
+    # end
 
-  #   describe "second block" do
-  #     it "starts where c ended" do
-  #       result.last.start.should eq(c.end)
-  #     end
+    # describe "second block" do
+    #   it "starts where c ended" do
+    #     result.last.start.should eq(c.end)
+    #   end
 
-  #     it "ends where d starts" do
-  #       result.last.end.should eq(d.start)
-  #     end
-  #   end
+    #   it "ends where d starts" do
+    #     result.last.end.should eq(d.start)
+    #   end
+    # end
 
-  # end
+  end
 
   # # ===========
   # # = Merging =
